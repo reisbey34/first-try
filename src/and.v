@@ -2,7 +2,7 @@
 A sample 8 bit AND in verilog, Top.
 /*
 
-module tt_um_and(
+module tt_um_and (
 input clk,
 input reset,
 input [7:0] a, b,
