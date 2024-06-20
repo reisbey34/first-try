@@ -1,11 +1,11 @@
 # Tiny Tapeout project information
 project:
-  title:        "eight_bit_AND"      
-  author:       "K.KARTAL"      
-  discord:      "reisbey34"      # reisbey34, for communication and automatically assigning you a Tapeout role (optional)
-  description:  " simple 0 bit AND logic"      # simple 0 bit AND logic
+  title:        "eight_bit_AND"      # Project title
+  author:       "K.KARTAL"      # Your name
+  discord:      "reisbey34"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+  description:  "simple 8 bit AND logic"      # One line description of what your project does
   language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
-  clock_hz:    100000        # Clock frequency in Hz (or 0 if not applicable)
+  clock_hz:     100000       # Clock frequency in Hz (or 0 if not applicable)
 
   # How many tiles your design occupies? A single tile is about 167x108 uM.
   tiles: "1x1"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
@@ -19,7 +19,7 @@ project:
   source_files:
     - "project.v"
     - "and.v"
-
+    
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
   # Inputs
