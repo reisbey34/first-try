@@ -25,7 +25,7 @@ module tt_um_example (
   wire _unused = &{ena, clk, rst_n, 1'b0};
     
     tt_um_and top(
-        .clk(clk)
+        .clk(clk,
         .reset(rst_n),
         .a(ui_in[7:0]),
         .b(uio_in[7:0]),
